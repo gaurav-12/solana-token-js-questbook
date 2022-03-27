@@ -29,31 +29,52 @@
 }
 
 .loading-backdrop {
-	position: fixed;
-	z-index: 999;
-	background: #000000eb;
-	height: 100vh;
-	width: 100vw;
-	top: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 5em;
+  position: fixed;
+  z-index: 999;
+  background: #000000eb;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  color: white;
 }
 
 button {
-	border: none;
-	background: white;
-	color: black;
-	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 25px;
-	font-size: 2vmin;
-	cursor: pointer;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 25px;
+  margin: 5px;
+  font-size: 2vmin;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}
+
+button:disabled:hover {
+  background: white;
 }
 
 button:hover {
   background: rgb(218, 218, 218);
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+input[type="text"]:disabled {
+  cursor: no-drop;
 }
 
 @keyframes App-logo-spin {
