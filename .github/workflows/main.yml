@@ -25,6 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
+      - name: Install dependencies
+        run: npm install
+      
       - name: Build React project
         run: |
           echo Building using $(node -v)
