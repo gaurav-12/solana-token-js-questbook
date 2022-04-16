@@ -30,7 +30,7 @@ jobs:
       
       - name: Build React project
         run: |
-          echo Building using $(node -v)
+          echo "Building using $(node -v)"
           npm run build
 
       - name: Deploy with gh-pages

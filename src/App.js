@@ -113,8 +113,7 @@ function App() {
       // const airdropSignature = "42RfUXv5MZJbrGe9ABbfgSqNWT7C5TDLzrr8BK3zPbcRYhrQ6D7xVzxBbAJqoSp4Hh2sANGL7DJ91wwawL3PJaQX"
       await CONNECTION.confirmTransaction(airdropSignature, "confirmed");
       console.log(
-        `Airdropped 2 SOL to ${
-          pubKey.toString() || provider.publicKey.toString()
+        `Airdropped 2 SOL to ${pubKey.toString() || provider.publicKey.toString()
         } in signature ${airdropSignature}`
       );
     } catch (error) {
