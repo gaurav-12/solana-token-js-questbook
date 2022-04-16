@@ -1,6 +1,6 @@
 # SOLANA token in JS
 
-[![gh-pages-auto-deployment push](https://github.com/gaurav-12/solana-token-js-questbook/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/gaurav-12/solana-token-js-questbook/actions/workflows/main.yml) [![gh-pages-auto-deployment pull_request](https://github.com/gaurav-12/solana-token-js-questbook/actions/workflows/main.yml/badge.svg?branch=main&event=pull_request)](https://github.com/gaurav-12/solana-token-js-questbook/actions/workflows/main.yml)
+[![GitHub Pages Deployment Status](https://github.com/gaurav-12/solana-token-js-questbook/workflows/gh-pages-auto-deployment/badge.svg)](https://github.com/gaurav-12/solana-token-js-questbook/actions)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
