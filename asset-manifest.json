@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/solana-token-js-questbook/static/css/main.92ed6f6c.css",
-    "main.js": "/solana-token-js-questbook/static/js/main.67314e1e.js",
+    "main.js": "/solana-token-js-questbook/static/js/main.a08fa566.js",
     "static/js/787.252bf81d.chunk.js": "/solana-token-js-questbook/static/js/787.252bf81d.chunk.js",
     "index.html": "/solana-token-js-questbook/index.html",
     "main.92ed6f6c.css.map": "/solana-token-js-questbook/static/css/main.92ed6f6c.css.map",
-    "main.67314e1e.js.map": "/solana-token-js-questbook/static/js/main.67314e1e.js.map",
+    "main.a08fa566.js.map": "/solana-token-js-questbook/static/js/main.a08fa566.js.map",
     "787.252bf81d.chunk.js.map": "/solana-token-js-questbook/static/js/787.252bf81d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92ed6f6c.css",
-    "static/js/main.67314e1e.js"
+    "static/js/main.a08fa566.js"
   ]
 }
